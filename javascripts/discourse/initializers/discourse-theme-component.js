@@ -33,9 +33,9 @@ const queryBadgesAPI = (data) => {
         ? document.getElementById('badge-status').innerText = `${count} new Maker badge${count > 1 ? "s": ""} ha${count > 1 ? "ve": "s"} been awarded to your profile!`
         : document.getElementById('badge-status').innerText = "No new eligible badges found."
       }
-      catch (error) { 
-        document.getElementById('badge-error').innerText = 'Badges API - JSON Parse Error'; 
-      
+      catch (error) {
+        document.getElementById('badge-error').innerText = 'Badges API - JSON Parse Error';
+
         // Render appropriate badge status
         document.getElementById('badge-status').innerText = "No new eligible badges found.";
       }

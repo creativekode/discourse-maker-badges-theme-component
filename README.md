@@ -1,6 +1,5 @@
 # discourse-maker-badges-theme-component
-Allows you to claim Discourse badges based on MakerDAO achievements
-
+Allows you to claim Discourse badges based on MakerDAO achievements.
 ### Project Description
 [https://github.com/makerdao/community/issues/536](https://github.com/makerdao/community/issues/536)
 
