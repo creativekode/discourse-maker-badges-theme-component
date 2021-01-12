@@ -1,6 +1,6 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
-const matchProductionHost = () => { return window.location.host === "staging-forum.makerfoundation.com"};
+const matchProductionHost = () => { return window.location.host === "forum.makerdao.com"};
 
 const html = () => { return "Import Maker Badges"; };
 
@@ -16,7 +16,6 @@ const queryBadgesAPI = (data) => {
   //Send the proper header information along with the request
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
-  // xhr.setRequestHeader("Content-Type", "application/json");
 
   // Call a function when the state changes.
   xhr.onreadystatechange = function() {
