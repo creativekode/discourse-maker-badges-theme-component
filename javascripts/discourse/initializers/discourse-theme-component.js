@@ -1,6 +1,6 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
-const matchProductionHost = () => { return window.location.host === "staging-forum.makerdao.com"};
+const matchProductionHost = () => { return window.location.host === "staging-forum.makerfoundation.com"};
 
 const html = () => { return "Import Maker Badges"; };
 
